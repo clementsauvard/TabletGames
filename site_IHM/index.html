@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+       <head>
+        
+         <!-- gère les accents  -->
+            <meta charset="utf-8" />
+            <!-- la police -->
+          <!--  <link rel='stylesheet' id='ls-google-fonts-css' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' /> -->
+            <!-- récupère la feuilles de style -->
+            <link href="../projet_IHM/css/style.css" rel="stylesheet" type="text/css" />
+
+           
+            
+        <title>PROJET L3 PII | Tablet Games </title>
+    </head>
+    
+    <header>
+         <h2><a href="index.html">Conception</a></h2>
+        <h2><a href="realisation.html">Réalisation</a></h2>
+
+    </header>
+    
+    <body>
+         <div id="banniere"><img src="img/Banniere_ihm.png" alt="banniere" height="100%" width="100%" /></div>
+          <div id="menu">
+                <h2><a href="index.html">Conception</a></h2>
+                <h2><a href="realisation.html">Réalisation</a></h2>
+        </div>
+    
+       
+        
+         <h1> Tablet Games </h1>
+        <hr /><br />
+    
+    <h2> Une manière ludique d'apprendre à utiliser une tablette graphique. </h2> 
+    
+        <div id ="besoin">
+        <h1>BESOIN </h1>
+        <hr /><br />
+        <h2>Lorsqu'un utilisateur vient d'acquérir une tablette graphique, il fait face à un probleme lors de son utilisation. En effet, nous avons l'habitude de voir ce qu'on déssine et c'est contre intuitif de dessiner sur un support et voir le dessin sur un autre. </h2>
+        <img src="img/tablette.png" width="300" height="190" alt="tablette graphique"  />
+        </div>
+        <br /><br />
+        
+        <h1>SOLUTION PROPOSÉE</h1>
+        <hr /><br />
+        <h2>Le jeu permet de s'habituer à utiliser une tablette en synchronisant nos gestes sur celle-ci avec ce qu'on voit sur l'écran, le tout de manière ludique. </h2>
+        <br /><br />
+        
+        <div id ="besoin">
+        <h1>Comment avons nous défini cela ?</h1>
+        <hr /><br />
+        <h2><div class="st">INTERVIEW </div><br />
+        
+        L'interview s'est déroulée avec 3 types de personnes différentes : <br />
+            <ul>
+                <li>Des informaticiens confirmés</li>
+                <li>Des utlisateurs occasionnels d'ordinateur, seulement capables de réaliser des tâches basiques de bureautique et surfer sur le web</li>
+                <li>Des utilisateurs réguliers d'ordinateurs, assez polyvalents sur les tâches quotidiennes qui nécessitent un ordinateur</li>
+            </ul>
+       
+        Toutes ces personnes n'ont jamais utilisé de tablette graphique. On leur a donc demandé de dessiner simplement des formes(cercle, carré, cube etc...) sur une feuille. Tous les utilisateurs ont donc réussi sans aucune difficultés.<br />
+         Ensuite, On leur a demandé de refaire ces même formes sur un logiciel de dessin en utilisant la tablette graphique. Le résultat est le même pour tous, l'action est laborieuse, les dessins ne sont pas bien réalisés, les formes sont disproportionnées et ce, après plusieurs tentatives. De plus, les personnes interviewées n'ont pas eu envie d'aller plus loin et de réessayer pour tenter de s'améliorer. <br /> <br />
+            
+            
+            <div class="st"> PROBLÈME DÉTECTÉ : </div><br/>
+            
+            Il est laborieux de dessiner une forme alors qu'ils n'ont aucun soucis sur feuille physique. De plus, ils n'ont aucune volonté de s'impliquer et laissent tomber facilement. On remarque notamment que les difficultés proviennent du fait de ne pas voir ce qu'on dessine directement sur la tablette (obligation de regarder l'écran et donc de ne pas regarder son stylet, ce qui est perturbant). Le second problème est que l'utilisateur n'arrive pas à projeter l'espace disponible de la tablette avec ce à quoi ça correspond sur l'écran. <br /><br />
+            
+            
+            <div class="st"> IDÉE DE SOLUTION :</div><br />
+             
+            Faire progresser l'utilisateur avec ce nouveau périphérique via des jeux simples. Ainsi, il va se sentir impliqué, amusé et voudra recommencer. A force de jouer, il sera plus à l'aise avec la tablette graphique.
+            Nous avons cherché deux jeux impliquant la représentation de l'espace disponible (Tap Tablet) pour l'un et la synchronisation entre la main et et ce qu'on regarde sur l'écran pour l'autre(Tablet Pong).<br /><br />
+            
+            
+            <div class="st"> RETOUR UTILISATEUR </div><br />
+            
+      <div class="link">  Pour la plupart, le prototype montré était satisfaisant (voir <a href="#storyboard">storyboard</a>) : l'utilisateur est intéréssé, invité à essayer, réessayer, progresser. Cependant, une petite partie continuait a perdre rapidement de l'interêt pour cette activité. <br /> <br /></div>
+            
+            <div class="st"> AMÉLIORATION AJOUTÉE</div> <br />
+            
+            Nous avons décidé d'ajouter la posssibilité de jouer à deux. En effet l'aspect multijoueur génère une sorte de compétition et maintient l'engouement pour cette activté et donc rendre l'apprentissage plus agréable.
+            </h2> 
+        
+            
+         <h1>DESCRIPTION DU JEU ET DE L'INTERACTION</h1>
+        <hr /><br />
+            <h2>Le jeu s'ouvre sur un menu avec le choix de lancer Tap Tablet, Pong Tablet (un joueur) ou Pong Tablet (Deux joueurs).
+            <br /><br />
+                <div class="st"> Tap Tablet </div> <br />
+            
+            Tap Tablet est un mini-jeu destiné à la prise en main de la tablette graphique.
+            Le jeu consiste en un écran sombre où vont apparaître à intervalles réguliers des points de couleur vive. Le joueur disposera d’un créneau de quelques secondes pour cliquer sur le point avant qu’il ne disparaisse. Un compteur affichant le nombre de réussites et le nombre total de points sera affiché. <br /><br />
+            
+            L'interaction est donc simple, on utilise son doigt (ou le sylet de la tablette) et on appuie simplement au bon endroit. Le but est de pouvoir se répresenter l'espace disponible et gagner en précision car en voyant ou se situe le point sur l'écran, on va chercher à se l'imaginer sur la tablette pour appuyer au bon endroit. C'est un bon exercice de visualisation et de précision avec le stylet. <br /><br />
+            
+                <div class="st"> Pong Tablet </div> <br />
+            
+            Pong Tablet est la reprise du tout premier jeux video Pong adapté pour être utilisé via tablette graphique. En effet, le jeu se déroulera sur l'écran de l'ordinateur mais le seul moyen de déplacer les barres pour renvoyer la barre est de slider du bon côté de la tablette.          
+</h2>
+             <img src="img/pong.png" width="300" height="190" alt="pong jeu"  />
+            
+          <h2> Pour ce jeu, l'interaction peut se faire au doigt ou au stylet. Il faudra s'imaginer la position d'une des deux barres sur la tablette, appuyer dessus et la déplacer de haut en bas. Lorsqu'on réalise le déplacement, on le voit en temps réel sur l'écran. Afin de ne pas laisser la balle passer, il sera donc nécessaire de regarder l'écran plutôt que la tablette et donc de s'habituer à réaliser des mouvements sur la tablette sans regarder ce que l'on fait sur celle-ci. On gagnera ainsi en synchronisation entre ce que l'on voit et ce que fait la main et ainsi se débarasser de l'habitude de forcément regarder notre mouvement sur la tablette au lieu de regarder l'écran. <br /><br />
+              
+        Le jeu peut se lancer en deux modes : 
+            <ul>
+              <li> Le mode "Un joueur" (gaucher ou droitier) : le joueur ne jouera qu'un côté (il ne pourra manipuler qu'une seule barre) et l'autre côté sera un mur. Ainsi le joueur ne peut pas gagner mais cherchera à augmenter son score au fil des parties. Cela nous semble être un bon compromis pour palier au fait de jouer tout seul et de pouvoir progresser tout en maintenant un engouement pour le jeu, passant donc par la volonté d'augmenter son score.</li>
+            <br />
+                <li>Le mode "Deux joueurs" : la version standard de pong opposant deux joueurs et le score d'un joueur s'incrémente lorsque celui-ci arrive à faire passer la balle derrière la barre de son adversaire. Ce mode peut se jouer avec deux stylets mais comme chaque tablette ne possède pas plusieurs stylets à l'achat (et que cela représente un certain coût pour l'utilisateur), il sera possible de jouer avec le doigt. </li>
+              </ul>
+        </h2> 
+        <br /><br />
+            
+         <h1>OUTILS DE DEVELOPPEMENT</h1></div>
+        <hr /><br />
+        <h2>Ce projet sera réalisé en Java Swing avec l'aide de certaines librairies externes : 
+        <ul>
+            <li>JTablet : gestion de la tablette</li>
+            <li> MT4j / Sparsh-ui : permet de gérer le multi-touch nécessaire pour le mode "Deux joueurs" de Pong Tablet.</li>
+            <li>JPen : gestion du stylet</li>
+            </ul> <br />
+        Pour assurer une compatibilité de l'application avec tous les systèmes d'exploitations, nous avons opté pour des librairies multi-plateformes. De plus, nous n'avons utilisé aucune librairie/plugin provenant d'une marque spécifique de tablette graphique afin que n'importe quel matériel puisse fonctionner et ne pas se limiter à/privilégier une marque particulière.<br />
+        
+        Ainsi, l'application doit marcher sur tout ordinateur et toute tablette, indépendamment des spécifications de ceux-ci.</h2>
+        <br /><br />
+        
+        <div id="storyboard"> <h1>STORYBOARD</h1></div>
+        <hr /><br />
+        <h2> <div class="st"> INTERFACE </div><br /> </h2>
+        <img src="img/interface.jpg" width="100%" height="100%" alt="interface storyboard"/>
+        <h2> <div class="st"> INTERACTION </div><br /> </h2>
+        <img src="img/interaction.jpg" width="100%" height="100%" alt="interaction storyboard"/>
+        <br /><br />
+    </body>
+    
+     <footer>
+  
+            <h3>
+               Sauvage Nicolas - Sauvard Cléement - Garnaud Nathan <br />
+                PII 2017<br />
+               Licence 3 Informatique - Paris-Saclay <br /> 
+            </h3>   
+
+    </footer>
+
+        <!--  inclure Jquery pour programmer en Javascript et ajout du fichier qui gère le menu persistant au scroll-->
+        <script src="../projet_IHM/JQuery/jquery.js"></script>
+        <script src="../projet_IHM/JQuery/header.js"></script>
+</html>

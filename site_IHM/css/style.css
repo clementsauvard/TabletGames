@@ -1,0 +1,121 @@
+html{
+    background-color: #EFEFEF;
+    position: relative;
+    min-height: 100%;
+}
+
+h1{
+    color: #1D417C;
+}
+
+h2,h3{
+    color:#2F4F4F;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    height: 40px;
+    width: 66%;
+    background-color: dimgrey;
+    color: #FFFFFF;
+    box-shadow: 0 2px 10px #888888;
+    visibility: hidden;
+}
+
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: #212F3C;
+}
+
+header h2{
+    display: inline;
+}
+
+
+.link a {
+    color: seagreen;
+    text-decoration: none;
+}
+.link a:hover{
+    color: brown;
+}
+
+
+#menu{
+   
+    background-color: dimgrey;
+    height: 100px;
+    box-shadow: 0px 0px 8px #888888;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 7%;
+}
+
+#menu a{
+    color: white;
+    text-decoration:none; 
+}
+
+#menu a:hover{
+    color: #212F3C;
+}
+
+body{
+     margin: 0 0 120px;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color: white;
+    box-shadow: 0 2px 10px #888888;
+}
+
+body h1{
+    text-align: center;
+}
+
+body h2{
+    text-align: justify;
+    margin: 5%;
+}
+
+.st{
+    color: #FB6446;
+    justify-content: center;
+}
+#besoin img{
+    margin-left: 30%;
+}
+hr{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color: dimgrey;
+    box-shadow: 0px 0px 8px #888888;
+    color: #FFFFFF;
+
+}
+
+#developpement img{
+    margin-left: 29%;
+    margin-bottom: 10%;
+}
+
+#developpement h2{
+    text-align: center;
+}
+footer h3{
+    color: white;
+    text-align: center;
+}
